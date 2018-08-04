@@ -2,7 +2,8 @@
   "name": "webpack-treehouse-example",
   "version": "0.0.1",
   "scripts": {
-    "build": "webpack --optimize-minimize"
+    "build": "webpack --optimize-minimize",
+    "start": "webpack-dev-server"
   },
   "devDependencies": {
     "babel-loader": "^6.2.4",
@@ -13,7 +14,9 @@
     "node-sass": "^3.8.0",
     "sass-loader": "^4.0.0",
     "style-loader": "^0.13.1",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
   },
   "dependencies": {
     "jquery": "^3.1.0"
